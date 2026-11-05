@@ -8,6 +8,10 @@ function draw() {
   fill(255, 255, 255, 10);
   rect(0, 0, width, height);
 
+  if(keyIsPressed) {
+    background(255);
+  }
+
   if (mouseX < width / 2) {
     if (mouseY < height / 2) {
       fill(255, 0, 0);
@@ -22,4 +26,5 @@ function draw() {
     }
   }
   square(mouseX, mouseY, 20);
-}
+
+ }
