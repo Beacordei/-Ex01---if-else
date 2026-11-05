@@ -23,7 +23,7 @@ function forma (x, y) {
   if (x < width / 2) {
       fill(255, 102, 51);
     } else {
-      fill(0, 255, 0);
+      fill(201, 167, 232);
   }
 
  if(mouseIsPressed) {
