@@ -21,7 +21,7 @@ forma(width - mouseX, height - mouseY);
 function forma (x, y) {
 
   if (x < width / 2) {
-      fill(255, 0, 0);
+      fill(255, 102, 51);
     } else {
       fill(0, 255, 0);
   }
