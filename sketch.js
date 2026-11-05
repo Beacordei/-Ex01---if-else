@@ -7,6 +7,7 @@ function draw() {
   noStroke();
   fill(255, 255, 255, 10);
   rect(0, 0, width, height);
+
   if (mouseX < width / 2) {
     if (mouseY < height / 2) {
       fill(255, 0, 0);
@@ -20,5 +21,5 @@ function draw() {
       fill(0);
     }
   }
-  circle(mouseX, mouseY, 20);
+  square(mouseX, mouseY, 20);
 }
