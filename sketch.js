@@ -25,5 +25,10 @@ function forma (x, y) {
     } else {
       fill(0, 255, 0);
   }
-  square(x, y, 20);
+
+ if(mouseIsPressed) {
+ square(x, y, 20);
+ } else {
+  ellipse(x, y, 20, 20);
+ }
 }
