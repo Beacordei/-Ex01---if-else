@@ -27,7 +27,7 @@ function forma (x, y) {
   }
 
  if(mouseIsPressed) {
- square(x, y, 20);
+ square(x - 25, y - 25, 50);
  } else {
   ellipse(x, y, 20, 20);
  }
