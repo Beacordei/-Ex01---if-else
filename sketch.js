@@ -1,11 +1,11 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(255);
+  background(8, 8, 38);
 }
 
 function draw() {
   noStroke();
-  fill(255, 255, 255, 10);
+  fill(8, 8, 38, 13);
   rect(0, 0, width, height);
 
 forma(mouseX, mouseY);
@@ -14,7 +14,7 @@ forma(mouseX, height - mouseY);
 forma(width - mouseX, height - mouseY);
 
   if(keyIsPressed) {
-    background(255);
+    background(8, 8, 38);
   }
 }
 
